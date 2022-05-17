@@ -109,7 +109,7 @@ do {
                 -method $method `
                 -contentType $contentType `
                 -resource $resource
-            $uri = "https://" + $customerId + ".ods.opinsights.azure.com" + $resource + "?api-version=2016-04-01"
+            $uri = "https://" + $customerId + ".ods.opinsights.azure.us" + $resource + "?api-version=2016-04-01"
             $headers1 = @{
                 "Authorization" = $signature;
                 "Log-Type" = $JCTablename;
